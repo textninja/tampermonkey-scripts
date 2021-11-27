@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Codewars Kata Slugs
 // @namespace    https://www.textninja.net
-// @version      1.0-dev.2
+// @version      1.0.0-dev.2
 // @description  Show the slug for codewars challenges
 // @author       Joe Taylor
 // @match        https://www.codewars.com/kata/*
