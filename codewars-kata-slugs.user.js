@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Codewars Kata Slugs
 // @namespace    https://www.textninja.net
-// @version      1.0.0-dev.2
-// @description  Show the slug for codewars challenges
+// @version      1.0.0
+// @description  Show the slug for codewars challenges under the kata title
 // @author       Joe Taylor
 // @match        https://www.codewars.com/kata/*
 // @grant        none
@@ -50,7 +50,7 @@
                 // update slug
                 (async function() {
                     if (cache[kataId]) {
-                        slugEl.textContent =cache[kataId];
+                        slugEl.textContent = cache[kataId];
                         return;
                     }
 
