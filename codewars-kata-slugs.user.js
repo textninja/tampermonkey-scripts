@@ -4,7 +4,7 @@
 // @version      1.0-dev.1
 // @description  Show the slug for codewars challenges
 // @author       Joe Taylor
-// @match        http://codewars.com/*
+// @match        https://codewars.com/*
 // @grant        none
 // ==/UserScript==
 
